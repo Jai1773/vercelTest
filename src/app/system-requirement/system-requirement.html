@@ -1,0 +1,43 @@
+<div class="gaming-page">
+
+  <h1 class="main-title">PC GAME REQUIREMENT CHECKER</h1>
+
+  <div class="checker-card">
+
+    <div class="form-group">
+      <label>Select Game</label>
+      <select [(ngModel)]="selectedGame">
+        <option *ngFor="let game of gamesDetails" [ngValue]="game">
+          {{ game.name }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Select CPU</label>
+      <select [(ngModel)]="selectedCpuScore">
+        <option *ngFor="let cpu of cpuDetails | keyvalue" [value]="cpu.value">
+          {{ cpu.key }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Select GPU</label>
+      <select [(ngModel)]="selectedGpuScore">
+        <option *ngFor="let gpu of gpuDetails | keyvalue" [value]="gpu.value">
+          {{ gpu.key }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>RAM (GB)</label>
+      <input type="number" [(ngModel)]="selectedRam">
+    </div>
+
+    <button class="check-btn" (click)="check()">CHECK PERFORMANCE</button>
+
+  </div>
+
+ </div>
