@@ -1,126 +1,218 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:'Poppins', sans-serif;
 }
 
-/* Animated Background */
-
-.gaming-page {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #000000);
-    background-size: 400% 400%;
-    animation: gradientMove 12s ease infinite;
+.gaming-page{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background:
+  radial-gradient(circle at top,#0f2027,#000000 70%),
+  linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+  color:white;
+  padding:40px 20px;
 }
 
-@keyframes gradientMove {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+.main-title{
+  font-size:clamp(24px,4vw,40px);
+  margin-bottom:30px;
+  text-align:center;
+  color:#66fcf1;
+  text-shadow:
+  0 0 10px #66fcf1,
+  0 0 25px #45a29e,
+  0 0 40px #45a29e;
 }
 
-/* Title */
-
-.main-title {
-    color: white;
-    font-size: 40px;
-    margin-bottom: 40px;
-    text-shadow: 0 0 20px #00ffff;
-    letter-spacing: 3px;
+.checker-card{
+  width:100%;
+  max-width:480px;
+  background:rgba(20,20,25,0.95);
+  border-radius:16px;
+  padding:30px;
+  border:1px solid #45a29e;
+  box-shadow:
+  0 0 25px rgba(0,255,255,0.2),
+  0 0 50px rgba(0,255,255,0.1);
+  backdrop-filter: blur(8px);
 }
 
-/* Glass Card */
-
-.checker-card {
-    width: 420px;
-    padding: 35px;
-    border-radius: 15px;
-    backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:20px;
 }
 
-/* Form */
-
-.form-group {
-    margin-bottom: 18px;
-    display: flex;
-    flex-direction: column;
+.form-group label{
+  margin-bottom:6px;
+  font-size:14px;
+  color:#c5c6c7;
 }
 
-label {
-    color: white;
-    margin-bottom: 5px;
-    font-weight: 600;
+input{
+  padding:12px;
+  border-radius:8px;
+  border:none;
+  background:#1f2833;
+  color:white;
+  font-size:14px;
+  transition:0.2s;
+  width:100%;
 }
 
-select,
-input {
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    font-size: 14px;
+input:focus{
+  outline:none;
+  box-shadow:0 0 10px #66fcf1;
 }
 
-/* Button */
-
-.check-btn {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #00ffff, #00ff9d);
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
+.custom-dropdown{
+  position:relative;
+  width:100%;
 }
 
-.check-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px #00ffff;
+.dropdown-selected{
+  background:#1f2833;
+  padding:12px;
+  border-radius:8px;
+  cursor:pointer;
+  border:1px solid #45a29e;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  transition:0.2s;
 }
 
-/* Loading Screen */
-
-.loading-screen {
-    height: 100vh;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
+.dropdown-selected:hover{
+  box-shadow:0 0 10px #45a29e;
 }
 
-/* Loader Animation */
-
-.loader {
-    width: 60px;
-    height: 60px;
-    border: 6px solid rgba(255, 255, 255, 0.2);
-    border-top: 6px solid #00ffff;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin-bottom: 20px;
+.arrow{
+  font-size:12px;
 }
 
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
+.dropdown-panel{
+  position:absolute;
+  width:100%;
+  background:#1f2833;
+  border:1px solid #45a29e;
+  border-radius:8px;
+  margin-top:6px;
+  z-index:20;
+  animation: dropdownFade 0.25s ease;
+}
+
+.dropdown-search{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-bottom:1px solid #45a29e;
+  background:#0b0c10;
+  color:white;
+}
+
+.dropdown-options{
+  max-height:200px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.dropdown-item{
+  padding:12px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.dropdown-item:hover{
+  background:#45a29e;
+  color:black;
+  transform:translateX(3px);
+}
+
+.dropdown-options::-webkit-scrollbar{
+  width:6px;
+}
+
+.dropdown-options::-webkit-scrollbar-thumb{
+  background:#45a29e;
+  border-radius:4px;
+}
+
+.check-btn{
+  width:100%;
+  padding:14px;
+  border-radius:10px;
+  border:none;
+  font-weight:bold;
+  font-size:15px;
+  cursor:pointer;
+  background:linear-gradient(135deg,#00f2fe,#4facfe);
+  color:black;
+  transition:0.25s;
+}
+
+.check-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:
+  0 0 15px #4facfe,
+  0 0 25px #00f2fe;
+}
+
+.result-box{
+  margin-top:25px;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  background:#1f2833;
+  border:1px solid #45a29e;
+  font-size:15px;
+}
+
+@keyframes dropdownFade{
+  from{
+    opacity:0;
+    transform:translateY(-6px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@media (max-width:768px){
+  .checker-card{
+    padding:25px;
+  }
+
+  .main-title{
+    margin-bottom:25px;
+  }
+}
+
+@media (max-width:480px){
+  .gaming-page{
+    padding:20px 12px;
+  }
+
+  .checker-card{
+    padding:20px;
+  }
+
+  .dropdown-item{
+    padding:10px;
+    font-size:14px;
+  }
+
+  .check-btn{
+    font-size:14px;
+    padding:12px;
+  }
+
+  .result-box{
+    font-size:14px;
+  }
 }

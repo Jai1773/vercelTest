@@ -1,43 +1,140 @@
 <div class="gaming-page">
 
-  <h1 class="main-title">PC GAME REQUIREMENT CHECKER</h1>
+  <h1 class="main-title">🎮 PC GAME REQUIREMENT CHECKER</h1>
 
   <div class="checker-card">
 
+    <!-- GAME -->
     <div class="form-group">
       <label>Select Game</label>
-      <select [(ngModel)]="selectedGame">
-        <option *ngFor="let game of gamesDetails" [ngValue]="game">
-          {{ game.name }}
-        </option>
-      </select>
+
+      <div class="custom-dropdown">
+
+        <div class="dropdown-selected" (click)="toggleGameDropdown()">
+          {{ gameSearch || 'Select Game' }}
+          <span class="arrow">▼</span>
+        </div>
+
+        <div class="dropdown-panel" *ngIf="showGameDropdown">
+
+          <input
+            type="text"
+            class="dropdown-search"
+            [(ngModel)]="gameSearch"
+            (input)="filterGames()"
+            placeholder="Search game..."
+          />
+
+          <div class="dropdown-options">
+
+            <div
+              class="dropdown-item"
+              *ngFor="let game of filteredGames"
+              (click)="selectGame(game)"
+            >
+              {{ game.name }}
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </div>
 
+
+    <!-- CPU -->
     <div class="form-group">
       <label>Select CPU</label>
-      <select [(ngModel)]="selectedCpuScore">
-        <option *ngFor="let cpu of cpuDetails | keyvalue" [value]="cpu.value">
-          {{ cpu.key }}
-        </option>
-      </select>
+
+      <div class="custom-dropdown">
+
+        <div class="dropdown-selected" (click)="toggleCpuDropdown()">
+          {{ cpuSearch || 'Select CPU' }}
+          <span class="arrow">▼</span>
+        </div>
+
+        <div class="dropdown-panel" *ngIf="showCpuDropdown">
+
+          <input
+            type="text"
+            class="dropdown-search"
+            [(ngModel)]="cpuSearch"
+            (input)="filterCpu()"
+            placeholder="Search CPU..."
+          />
+
+          <div class="dropdown-options">
+
+            <div
+              class="dropdown-item"
+              *ngFor="let cpu of filteredCpu"
+              (click)="selectCpu(cpu)"
+            >
+              {{ cpu }}
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </div>
 
+
+    <!-- GPU -->
     <div class="form-group">
       <label>Select GPU</label>
-      <select [(ngModel)]="selectedGpuScore">
-        <option *ngFor="let gpu of gpuDetails | keyvalue" [value]="gpu.value">
-          {{ gpu.key }}
-        </option>
-      </select>
+
+      <div class="custom-dropdown">
+
+        <div class="dropdown-selected" (click)="toggleGpuDropdown()">
+          {{ gpuSearch || 'Select GPU' }}
+          <span class="arrow">▼</span>
+        </div>
+
+        <div class="dropdown-panel" *ngIf="showGpuDropdown">
+
+          <input
+            type="text"
+            class="dropdown-search"
+            [(ngModel)]="gpuSearch"
+            (input)="filterGpu()"
+            placeholder="Search GPU..."
+          />
+
+          <div class="dropdown-options">
+
+            <div
+              class="dropdown-item"
+              *ngFor="let gpu of filteredGpu"
+              (click)="selectGpu(gpu)"
+            >
+              {{ gpu }}
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </div>
 
+
+    <!-- RAM -->
     <div class="form-group">
       <label>RAM (GB)</label>
-      <input type="number" [(ngModel)]="selectedRam">
+      <input type="number" [(ngModel)]="selectedRam" />
     </div>
 
-    <button class="check-btn" (click)="check()">CHECK PERFORMANCE</button>
+    <button class="check-btn" (click)="check()">
+      CHECK PERFORMANCE
+    </button>
+
+    <div class="result-box" *ngIf="resultMessage">
+      {{ resultMessage }}
+    </div>
 
   </div>
 
- </div>
+</div>
