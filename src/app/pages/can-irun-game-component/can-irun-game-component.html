@@ -1,0 +1,72 @@
+<div class="page-container" *ngIf="game">
+
+  <!-- NAV BAR -->
+  <div class="nav-bar">
+    <button (click)="goBack()">⬅ Back</button>
+    <a routerLink="/">Home</a>
+  </div>
+
+  <!-- TITLE -->
+  <h1>{{ game.seo.title }}</h1>
+
+  <!-- INTRO -->
+  <section class="section" style="animation-delay: 0.2s;">
+    <p>{{ game.intro }}</p>
+  </section>
+
+  <!-- TOOL -->
+  <section class="section tool-section" style="animation-delay: 0.3s;">
+    <h2>Check Your PC Compatibility</h2>
+    <app-system-requirement></app-system-requirement>
+  </section>
+
+  <!-- REQUIREMENTS -->
+  <section class="section" style="animation-delay: 0.4s;">
+    <h2>System Requirements for {{ game.name }}</h2>
+
+    <div class="requirements">
+
+      <div class="card">
+        <h3>Minimum Requirements</h3>
+        <ul>
+          <li><strong>CPU:</strong> {{ game.requirements.minimum.cpu }}</li>
+          <li><strong>RAM:</strong> {{ game.requirements.minimum.ram }}</li>
+          <li><strong>GPU:</strong> {{ game.requirements.minimum.gpu }}</li>
+          <li><strong>Storage:</strong> {{ game.requirements.minimum.storage }}</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Recommended Requirements</h3>
+        <ul>
+          <li><strong>CPU:</strong> {{ game.requirements.recommended.cpu }}</li>
+          <li><strong>RAM:</strong> {{ game.requirements.recommended.ram }}</li>
+          <li><strong>GPU:</strong> {{ game.requirements.recommended.gpu }}</li>
+          <li><strong>Storage:</strong> {{ game.requirements.recommended.storage }}</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESULT -->
+  <section class="section" style="animation-delay: 0.5s;">
+    <h2>What Do Your Results Mean?</h2>
+
+    <p><strong>Low-End PC:</strong> {{ game.results.low }}</p>
+    <p><strong>Mid-Range PC:</strong> {{ game.results.medium }}</p>
+    <p><strong>High-End PC:</strong> {{ game.results.high }}</p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" style="animation-delay: 0.6s;">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item" *ngFor="let faq of game.faqs">
+      <h3>{{ faq.question }}</h3>
+      <p>{{ faq.answer }}</p>
+    </div>
+
+  </section>
+
+</div>

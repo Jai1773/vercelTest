@@ -1,5 +1,7 @@
 export interface GameRequirement {
   name: string;
+  route?: string;
+  slug?: string;
 
   minimum: {
     ram: number;

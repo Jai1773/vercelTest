@@ -1,0 +1,76 @@
+<div class="dashboard-wrapper">
+
+  <!-- TOP HEADER BAR -->
+  <header class="dashboard-header">
+    <div class="header-content">
+      <span class="icon">🎮</span>
+      <h1>PC Game Checker</h1>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="dashboard-container">
+
+    <div class="dashboard-grid">
+
+      <!-- LEFT PANEL -->
+      <div class="left-panel">
+
+        <!-- TOOL CARD -->
+        <div class="card tool-card">
+          <h2>Check Your PC</h2>
+          <app-system-requirement></app-system-requirement>
+        </div>
+
+        <!-- INFO CARD -->
+        <div class="card info-card">
+          <h2>How It Works</h2>
+          <p>
+            Compare your PC specs with game requirements instantly.
+          </p>
+          <ul>
+            <li>✔ CPU, GPU, RAM comparison</li>
+            <li>✔ Instant performance result</li>
+            <li>✔ Simple & fast</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="right-panel">
+
+        <!-- HERO CARD -->
+        <div class="card hero-card">
+          <h2>Can Your PC Run Any Game?</h2>
+          <p>Explore popular games and test compatibility</p>
+        </div>
+
+        <!-- GAMES CARD -->
+        <div class="card games-card">
+          <h2>Popular Games</h2>
+
+          <div class="games-scroll">
+            <div class="games-grid">
+
+              <div
+                class="game-card"
+                *ngFor="let game of (popularGames$ | async) ?? []; trackBy: trackByName"
+                [routerLink]="game.route"
+              >
+                <h3>{{ game.name }}</h3>
+                <span>Check →</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

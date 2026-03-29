@@ -1,6 +1,6 @@
-<div class="gaming-page">
-
-  <h1 class="main-title">🎮 PC GAME REQUIREMENT CHECKER</h1>
+<div class="gaming-page">  <h1 class="main-title">
+    Can I Run {{ selectedGame?.name || 'PC Game Requirement Checker' }}?
+  </h1>
 
   <div class="checker-card">
 
@@ -8,14 +8,18 @@
     <div class="form-group">
       <label>Select Game</label>
 
-      <div class="custom-dropdown">
+      <div class="custom-dropdown" #gameDropdown>
 
         <div class="dropdown-selected" (click)="toggleGameDropdown()">
           {{ gameSearch || 'Select Game' }}
           <span class="arrow">▼</span>
         </div>
 
-        <div class="dropdown-panel" *ngIf="showGameDropdown">
+        <div
+          class="dropdown-panel"
+          *ngIf="showGameDropdown"
+          (click)="$event.stopPropagation()"
+        >
 
           <input
             type="text"
@@ -26,7 +30,6 @@
           />
 
           <div class="dropdown-options">
-
             <div
               class="dropdown-item"
               *ngFor="let game of filteredGames"
@@ -34,7 +37,6 @@
             >
               {{ game.name }}
             </div>
-
           </div>
 
         </div>
@@ -47,14 +49,18 @@
     <div class="form-group">
       <label>Select CPU</label>
 
-      <div class="custom-dropdown">
+      <div class="custom-dropdown" #cpuDropdown>
 
         <div class="dropdown-selected" (click)="toggleCpuDropdown()">
           {{ cpuSearch || 'Select CPU' }}
           <span class="arrow">▼</span>
         </div>
 
-        <div class="dropdown-panel" *ngIf="showCpuDropdown">
+        <div
+          class="dropdown-panel"
+          *ngIf="showCpuDropdown"
+          (click)="$event.stopPropagation()"
+        >
 
           <input
             type="text"
@@ -65,7 +71,6 @@
           />
 
           <div class="dropdown-options">
-
             <div
               class="dropdown-item"
               *ngFor="let cpu of filteredCpu"
@@ -73,7 +78,6 @@
             >
               {{ cpu }}
             </div>
-
           </div>
 
         </div>
@@ -86,14 +90,18 @@
     <div class="form-group">
       <label>Select GPU</label>
 
-      <div class="custom-dropdown">
+      <div class="custom-dropdown" #gpuDropdown>
 
         <div class="dropdown-selected" (click)="toggleGpuDropdown()">
           {{ gpuSearch || 'Select GPU' }}
           <span class="arrow">▼</span>
         </div>
 
-        <div class="dropdown-panel" *ngIf="showGpuDropdown">
+        <div
+          class="dropdown-panel"
+          *ngIf="showGpuDropdown"
+          (click)="$event.stopPropagation()"
+        >
 
           <input
             type="text"
@@ -104,7 +112,6 @@
           />
 
           <div class="dropdown-options">
-
             <div
               class="dropdown-item"
               *ngFor="let gpu of filteredGpu"
@@ -112,7 +119,6 @@
             >
               {{ gpu }}
             </div>
-
           </div>
 
         </div>

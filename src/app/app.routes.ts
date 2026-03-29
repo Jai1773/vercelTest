@@ -1,9 +1,27 @@
 import { Routes } from '@angular/router';
-import { SystemRequirement } from './system-requirement/system-requirement';
+import { Dashboard } from './pages/dashboard/dashboard';
 
 export const routes: Routes = [
+
+  // GAME PAGE (WITH SLUG)
+ {
+  path: 'can-i-run/:slug',
+  loadComponent: () =>
+    import('./pages/can-irun-game-component/can-irun-game-component')
+      .then(m => m.CanIRunGameComponent)
+},
+
+
+  // HOME PAGE
   {
     path: '',
-    component: SystemRequirement
+    component: Dashboard
+  },
+
+  // FALLBACK
+  {
+    path: '**',
+    redirectTo: ''
   }
+
 ];

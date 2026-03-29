@@ -1,52 +1,2346 @@
 [
-{"name":"GTA V","minimum":{"ram":8,"gpuScore":150,"cpuScore":120},"recommended":{"ram":16,"gpuScore":300,"cpuScore":200}},
-{"name":"Cyberpunk 2077","minimum":{"ram":8,"gpuScore":300,"cpuScore":200},"recommended":{"ram":16,"gpuScore":600,"cpuScore":350}},
-{"name":"Red Dead Redemption 2","minimum":{"ram":8,"gpuScore":280,"cpuScore":200},"recommended":{"ram":16,"gpuScore":550,"cpuScore":320}},
-{"name":"Fortnite","minimum":{"ram":8,"gpuScore":120,"cpuScore":100},"recommended":{"ram":16,"gpuScore":300,"cpuScore":200}},
-{"name":"Valorant","minimum":{"ram":4,"gpuScore":80,"cpuScore":80},"recommended":{"ram":8,"gpuScore":150,"cpuScore":120}},
-{"name":"Minecraft","minimum":{"ram":4,"gpuScore":80,"cpuScore":80},"recommended":{"ram":8,"gpuScore":150,"cpuScore":120}},
-{"name":"Call of Duty Warzone","minimum":{"ram":8,"gpuScore":250,"cpuScore":180},"recommended":{"ram":16,"gpuScore":500,"cpuScore":300}},
-{"name":"Apex Legends","minimum":{"ram":8,"gpuScore":200,"cpuScore":150},"recommended":{"ram":16,"gpuScore":400,"cpuScore":250}},
-{"name":"PUBG","minimum":{"ram":8,"gpuScore":220,"cpuScore":160},"recommended":{"ram":16,"gpuScore":450,"cpuScore":280}},
-{"name":"Elden Ring","minimum":{"ram":12,"gpuScore":320,"cpuScore":220},"recommended":{"ram":16,"gpuScore":600,"cpuScore":350}},
-{"name":"God of War","minimum":{"ram":8,"gpuScore":250,"cpuScore":200},"recommended":{"ram":16,"gpuScore":500,"cpuScore":320}},
-{"name":"Assassin's Creed Valhalla","minimum":{"ram":8,"gpuScore":300,"cpuScore":220},"recommended":{"ram":16,"gpuScore":600,"cpuScore":350}},
-{"name":"Assassin's Creed Odyssey","minimum":{"ram":8,"gpuScore":250,"cpuScore":200},"recommended":{"ram":16,"gpuScore":500,"cpuScore":300}},
-{"name":"The Witcher 3","minimum":{"ram":8,"gpuScore":150,"cpuScore":120},"recommended":{"ram":16,"gpuScore":350,"cpuScore":220}},
-{"name":"Far Cry 5","minimum":{"ram":8,"gpuScore":200,"cpuScore":150},"recommended":{"ram":16,"gpuScore":400,"cpuScore":260}},
-{"name":"Far Cry 6","minimum":{"ram":8,"gpuScore":320,"cpuScore":220},"recommended":{"ram":16,"gpuScore":600,"cpuScore":350}},
-{"name":"Battlefield 1","minimum":{"ram":8,"gpuScore":180,"cpuScore":150},"recommended":{"ram":16,"gpuScore":350,"cpuScore":240}},
-{"name":"Battlefield V","minimum":{"ram":8,"gpuScore":220,"cpuScore":180},"recommended":{"ram":16,"gpuScore":450,"cpuScore":280}},
-{"name":"Battlefield 2042","minimum":{"ram":16,"gpuScore":350,"cpuScore":250},"recommended":{"ram":16,"gpuScore":650,"cpuScore":380}},
-{"name":"Overwatch 2","minimum":{"ram":6,"gpuScore":120,"cpuScore":100},"recommended":{"ram":8,"gpuScore":250,"cpuScore":180}},
-{"name":"Counter Strike 2","minimum":{"ram":8,"gpuScore":150,"cpuScore":120},"recommended":{"ram":16,"gpuScore":300,"cpuScore":200}},
-{"name":"Dota 2","minimum":{"ram":4,"gpuScore":80,"cpuScore":80},"recommended":{"ram":8,"gpuScore":150,"cpuScore":120}},
-{"name":"League of Legends","minimum":{"ram":4,"gpuScore":70,"cpuScore":70},"recommended":{"ram":8,"gpuScore":120,"cpuScore":100}},
-{"name":"Hogwarts Legacy","minimum":{"ram":16,"gpuScore":400,"cpuScore":260},"recommended":{"ram":16,"gpuScore":700,"cpuScore":420}},
-{"name":"Starfield","minimum":{"ram":16,"gpuScore":420,"cpuScore":300},"recommended":{"ram":16,"gpuScore":750,"cpuScore":450}},
-{"name":"Resident Evil Village","minimum":{"ram":8,"gpuScore":250,"cpuScore":180},"recommended":{"ram":16,"gpuScore":500,"cpuScore":300}},
-{"name":"Resident Evil 4 Remake","minimum":{"ram":8,"gpuScore":300,"cpuScore":220},"recommended":{"ram":16,"gpuScore":550,"cpuScore":350}},
-{"name":"Forza Horizon 5","minimum":{"ram":8,"gpuScore":220,"cpuScore":180},"recommended":{"ram":16,"gpuScore":500,"cpuScore":300}},
-{"name":"Need for Speed Heat","minimum":{"ram":8,"gpuScore":200,"cpuScore":150},"recommended":{"ram":16,"gpuScore":400,"cpuScore":260}},
-{"name":"Need for Speed Unbound","minimum":{"ram":8,"gpuScore":300,"cpuScore":220},"recommended":{"ram":16,"gpuScore":600,"cpuScore":350}},
-{"name":"Shadow of the Tomb Raider","minimum":{"ram":8,"gpuScore":220,"cpuScore":160},"recommended":{"ram":16,"gpuScore":450,"cpuScore":280}},
-{"name":"Rise of the Tomb Raider","minimum":{"ram":8,"gpuScore":180,"cpuScore":150},"recommended":{"ram":16,"gpuScore":350,"cpuScore":240}},
-{"name":"Control","minimum":{"ram":8,"gpuScore":250,"cpuScore":200},"recommended":{"ram":16,"gpuScore":500,"cpuScore":320}},
-{"name":"Death Stranding","minimum":{"ram":8,"gpuScore":220,"cpuScore":180},"recommended":{"ram":16,"gpuScore":450,"cpuScore":300}},
-{"name":"Days Gone","minimum":{"ram":8,"gpuScore":220,"cpuScore":180},"recommended":{"ram":16,"gpuScore":450,"cpuScore":300}},
-{"name":"Horizon Zero Dawn","minimum":{"ram":8,"gpuScore":250,"cpuScore":200},"recommended":{"ram":16,"gpuScore":500,"cpuScore":320}},
-{"name":"Ghostrunner","minimum":{"ram":8,"gpuScore":200,"cpuScore":150},"recommended":{"ram":16,"gpuScore":400,"cpuScore":260}},
-{"name":"Metro Exodus","minimum":{"ram":8,"gpuScore":250,"cpuScore":200},"recommended":{"ram":16,"gpuScore":500,"cpuScore":320}},
-{"name":"Metro Last Light Redux","minimum":{"ram":4,"gpuScore":120,"cpuScore":100},"recommended":{"ram":8,"gpuScore":250,"cpuScore":180}},
-{"name":"Dark Souls III","minimum":{"ram":8,"gpuScore":150,"cpuScore":120},"recommended":{"ram":16,"gpuScore":300,"cpuScore":200}},
-{"name":"Sekiro Shadows Die Twice","minimum":{"ram":8,"gpuScore":180,"cpuScore":150},"recommended":{"ram":16,"gpuScore":350,"cpuScore":240}},
-{"name":"Monster Hunter World","minimum":{"ram":8,"gpuScore":200,"cpuScore":160},"recommended":{"ram":16,"gpuScore":400,"cpuScore":260}},
-{"name":"No Man's Sky","minimum":{"ram":8,"gpuScore":180,"cpuScore":150},"recommended":{"ram":16,"gpuScore":350,"cpuScore":240}},
-{"name":"Rainbow Six Siege","minimum":{"ram":8,"gpuScore":150,"cpuScore":120},"recommended":{"ram":16,"gpuScore":300,"cpuScore":200}},
-{"name":"Watch Dogs 2","minimum":{"ram":8,"gpuScore":220,"cpuScore":180},"recommended":{"ram":16,"gpuScore":450,"cpuScore":300}},
-{"name":"Watch Dogs Legion","minimum":{"ram":8,"gpuScore":320,"cpuScore":220},"recommended":{"ram":16,"gpuScore":650,"cpuScore":380}},
-{"name":"Sleeping Dogs","minimum":{"ram":4,"gpuScore":100,"cpuScore":90},"recommended":{"ram":8,"gpuScore":200,"cpuScore":150}},
-{"name":"Just Cause 3","minimum":{"ram":8,"gpuScore":180,"cpuScore":150},"recommended":{"ram":16,"gpuScore":350,"cpuScore":240}},
-{"name":"Just Cause 4","minimum":{"ram":8,"gpuScore":220,"cpuScore":180},"recommended":{"ram":16,"gpuScore":450,"cpuScore":300}},
-{"name":"Skyrim Special Edition","minimum":{"ram":8,"gpuScore":120,"cpuScore":100},"recommended":{"ram":16,"gpuScore":250,"cpuScore":180}}
+  {
+    "name": "GTA V",
+    "slug": "gta-5",
+    "seo": {
+      "title": "Can I Run GTA 5",
+      "description": "Check GTA 5 system requirements and see if your PC can run GTA V smoothly."
+    },
+    "intro": "Check if your PC can run GTA V smoothly.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "8 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "105 GB SSD"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "16 GB",
+        "gpu": "GTX 1080",
+        "storage": "105 GB DirectStorage-compatible drive"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 140,
+        "cpuScore": 120
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 300,
+        "cpuScore": 200
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Playable on medium settings",
+      "high": "Smooth on high settings"
+    },
+    "faqs": [
+      {
+        "question": "Can GTA V run on 4GB RAM?",
+        "answer": "It may launch but performance will be very poor with frequent stutters. 8GB is the minimum for a playable experience."
+      },
+      {
+        "question": "Does GTA V support 60 FPS on a mid-range PC?",
+        "answer": "Yes, a GTX 1060 or RX 580 with an i7 CPU can sustain 60 FPS on high settings."
+      }
+    ]
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "slug": "cyberpunk-2077",
+    "seo": {
+      "title": "Can I Run Cyberpunk 2077",
+      "description": "Check Cyberpunk 2077 system requirements and test your PC for smooth performance."
+    },
+    "intro": "Test your PC for Cyberpunk 2077 performance in Night City.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "70 GB SSD"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-10700K",
+        "ram": "16 GB",
+        "gpu": "RTX 3070",
+        "storage": "70 GB SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 600,
+        "cpuScore": 340
+      }
+    },
+    "results": {
+      "low": "Playable on low settings at 1080p",
+      "medium": "Medium settings with stable framerates",
+      "high": "High settings with smooth gameplay"
+    },
+    "faqs": [
+      {
+        "question": "Can Cyberpunk 2077 run without an SSD?",
+        "answer": "An SSD is strongly recommended. Running from an HDD will cause long loading times and texture pop-in issues."
+      },
+      {
+        "question": "Does Cyberpunk 2077 support ray tracing on mid-range GPUs?",
+        "answer": "Ray tracing requires at least an RTX 2060. Mid-range non-RTX cards should disable ray tracing for better performance."
+      }
+    ]
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "slug": "red-dead-redemption-2",
+    "seo": {
+      "title": "Can I Run RDR2",
+      "description": "Check Red Dead Redemption 2 system requirements and find out if your PC can handle it."
+    },
+    "intro": "Find out if your PC can handle the vast open world of RDR2.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1660 Super",
+        "storage": "150 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12400F",
+        "ram": "8 GB",
+        "gpu": "RTX 2080 Ti",
+        "storage": "150 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 270,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 550,
+        "cpuScore": 320
+      }
+    },
+    "results": {
+      "low": "Low settings playable at 1080p",
+      "medium": "Balanced performance on medium",
+      "high": "High settings smooth at 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "How much storage does RDR2 need?",
+        "answer": "RDR2 requires approximately 150 GB of free storage space."
+      },
+      {
+        "question": "Can RDR2 run on 8GB RAM?",
+        "answer": "Yes, but 16GB is recommended for a smoother experience especially in dense areas."
+      }
+    ]
+  },
+  {
+    "name": "Fortnite",
+    "slug": "fortnite",
+    "seo": {
+      "title": "Can I Run Fortnite",
+      "description": "Check Fortnite system requirements and see if your PC can run it smoothly."
+    },
+    "intro": "Check if your PC is ready to drop into Fortnite's battle royale.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "8 GB",
+        "gpu": "GTX 1050",
+        "storage": "Not specified"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "16 GB",
+        "gpu": "GTX 1080",
+        "storage": "NVMe SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 120,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 300,
+        "cpuScore": 200
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth on medium settings",
+      "high": "High settings with stable 60+ FPS"
+    },
+    "faqs": [
+      {
+        "question": "Can Fortnite run on integrated graphics?",
+        "answer": "Fortnite can run on some Intel integrated graphics at very low settings but a dedicated GPU is recommended for a good experience."
+      },
+      {
+        "question": "Is Fortnite free to play?",
+        "answer": "Yes, Fortnite Battle Royale is free to play on PC."
+      }
+    ]
+  },
+  {
+    "name": "Valorant",
+    "slug": "valorant",
+    "seo": {
+      "title": "Can I Run Valorant",
+      "description": "Check Valorant system requirements and find out if your PC can run it."
+    },
+    "intro": "See if your PC can run Valorant at competitive framerates.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 750",
+        "storage": "Not specified"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "4 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "Not specified"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 80,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 4,
+        "gpuScore": 140,
+        "cpuScore": 120
+      }
+    },
+    "results": {
+      "low": "30+ FPS on low settings",
+      "medium": "60 FPS on medium settings",
+      "high": "144+ FPS on high settings"
+    },
+    "faqs": [
+      {
+        "question": "Can Valorant run on a laptop?",
+        "answer": "Yes, Valorant is designed to run on a wide range of hardware including older laptops with dedicated GPUs."
+      },
+      {
+        "question": "Does Valorant require a high-end PC?",
+        "answer": "No, Valorant is optimized to run on low-end PCs to maximize its player base."
+      }
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "slug": "minecraft",
+    "seo": {
+      "title": "Can I Run Minecraft",
+      "description": "Check Minecraft system requirements and see if your PC can run it."
+    },
+    "intro": "Find out if your PC can run Minecraft with or without shaders.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 750",
+        "storage": "2 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "4 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "4 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 80,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 4,
+        "gpuScore": 140,
+        "cpuScore": 120
+      }
+    },
+    "results": {
+      "low": "Playable on vanilla settings",
+      "medium": "Smooth with moderate mods",
+      "high": "Shaders and heavy mods supported"
+    },
+    "faqs": [
+      {
+        "question": "Can Minecraft run on 2GB RAM?",
+        "answer": "Vanilla Minecraft can technically run on 2GB RAM but the experience will be poor. 4GB is the practical minimum."
+      },
+      {
+        "question": "Do shaders require a good GPU?",
+        "answer": "Yes, shader packs significantly increase GPU demand. A GTX 1060 or better is recommended for shaders at 60 FPS."
+      }
+    ]
+  },
+  {
+    "name": "Call of Duty Warzone",
+    "slug": "call-of-duty-warzone",
+    "seo": {
+      "title": "Can I Run Call of Duty Warzone",
+      "description": "Check Call of Duty Warzone system requirements and test your PC."
+    },
+    "intro": "Check if your PC is ready for the Warzone battleground.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "116 GB SSD"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "8 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "116 GB SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 500,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Playable at low settings",
+      "medium": "Smooth medium performance",
+      "high": "High settings stable FPS"
+    },
+    "faqs": [
+      {
+        "question": "How much storage does Warzone need?",
+        "answer": "Warzone requires at least 75 GB of SSD space, though the full installation can exceed 100 GB with updates."
+      },
+      {
+        "question": "Can Warzone run on 8GB RAM?",
+        "answer": "Yes, but 16GB is recommended as Warzone is known to be memory-hungry, especially in large lobbies."
+      }
+    ]
+  },
+  {
+    "name": "Apex Legends",
+    "slug": "apex-legends",
+    "seo": {
+      "title": "Can I Run Apex Legends",
+      "description": "Check Apex Legends system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can drop into the Apex Games competitively.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "4 GB",
+        "gpu": "GTX 1060 6GB",
+        "storage": "75 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-10600K",
+        "ram": "8 GB",
+        "gpu": "RTX 2070",
+        "storage": "75 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 200,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 400,
+        "cpuScore": 250
+      }
+    },
+    "results": {
+      "low": "Playable at low settings",
+      "medium": "60 FPS on medium settings",
+      "high": "High settings with competitive FPS"
+    },
+    "faqs": [
+      {
+        "question": "Is Apex Legends free to play?",
+        "answer": "Yes, Apex Legends is free to play on PC via EA App and Steam."
+      },
+      {
+        "question": "Can Apex run at 144 FPS on a mid-range PC?",
+        "answer": "A GTX 1070 or RX 5700 can achieve 144 FPS on medium settings at 1080p."
+      }
+    ]
+  },
+  {
+    "name": "PUBG",
+    "slug": "pubg",
+    "seo": {
+      "title": "Can I Run PUBG",
+      "description": "Check PUBG system requirements and see if your PC can handle it."
+    },
+    "intro": "Check if your PC can handle the original battle royale, PUBG.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-8400",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "8 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-13100F",
+        "ram": "16 GB",
+        "gpu": "RTX 3060",
+        "storage": "8 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 160
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 450,
+        "cpuScore": 280
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Smooth on medium settings",
+      "high": "High settings with good FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does PUBG require an SSD?",
+        "answer": "An SSD is strongly recommended for PUBG to reduce texture loading times and improve overall smoothness."
+      }
+    ]
+  },
+  {
+    "name": "Elden Ring",
+    "slug": "elden-ring",
+    "seo": {
+      "title": "Can I Run Elden Ring",
+      "description": "Check Elden Ring system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can survive the Lands Between in Elden Ring.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "60 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-10700K",
+        "ram": "16 GB",
+        "gpu": "RTX 3070",
+        "storage": "60 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 220
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 600,
+        "cpuScore": 340
+      }
+    },
+    "results": {
+      "low": "Low settings at 30 FPS",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth gameplay"
+    },
+    "faqs": [
+      {
+        "question": "Does Elden Ring have performance issues on PC?",
+        "answer": "At launch Elden Ring had some stuttering issues, but patches have improved stability significantly."
+      },
+      {
+        "question": "Can Elden Ring run at 60 FPS on a GTX 1060?",
+        "answer": "On medium settings at 1080p, a GTX 1060 can achieve close to 60 FPS in most areas."
+      }
+    ]
+  },
+  {
+    "name": "God of War",
+    "slug": "god-of-war",
+    "seo": {
+      "title": "Can I Run God of War",
+      "description": "Check God of War PC system requirements and test your rig."
+    },
+    "intro": "Check if your PC can handle Kratos and Atreus's epic Norse journey.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "70 GB HDD (SSD recommended)"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12400F",
+        "ram": "8 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "70 GB SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 500,
+        "cpuScore": 320
+      }
+    },
+    "results": {
+      "low": "Playable at low/medium settings",
+      "medium": "Smooth at medium settings",
+      "high": "High settings with stable 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does God of War support ultrawide monitors?",
+        "answer": "Yes, the PC version of God of War supports ultrawide resolutions up to 21:9."
+      }
+    ]
+  },
+  {
+    "name": "Assassin's Creed Valhalla",
+    "slug": "assassins-creed-valhalla",
+    "seo": {
+      "title": "Can I Run Assassin's Creed Valhalla",
+      "description": "Check Assassin's Creed Valhalla system requirements for your PC."
+    },
+    "intro": "Find out if your PC can run Assassin's Creed Valhalla's massive open world.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "160 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-10700K",
+        "ram": "8 GB",
+        "gpu": "RTX 3070",
+        "storage": "160 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 220
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 600,
+        "cpuScore": 340
+      }
+    },
+    "results": {
+      "low": "Low settings playable at 1080p",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth gameplay"
+    },
+    "faqs": [
+      {
+        "question": "Is AC Valhalla CPU or GPU heavy?",
+        "answer": "Valhalla is moderately CPU-heavy due to its large open world, but GPU is the primary bottleneck for most players."
+      }
+    ]
+  },
+  {
+    "name": "Assassin's Creed Odyssey",
+    "slug": "assassins-creed-odyssey",
+    "seo": {
+      "title": "Can I Run Assassin's Creed Odyssey",
+      "description": "Check Assassin's Creed Odyssey system requirements and test your PC."
+    },
+    "intro": "Check if your PC can explore Ancient Greece in Assassin's Creed Odyssey.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "46 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "8 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "46 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 500,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth on medium settings",
+      "high": "High settings stable performance"
+    },
+    "faqs": [
+      {
+        "question": "How large is AC Odyssey on PC?",
+        "answer": "The game requires approximately 46 GB of storage space, though updates may increase this."
+      }
+    ]
+  },
+  {
+    "name": "The Witcher 3",
+    "slug": "the-witcher-3",
+    "seo": {
+      "title": "Can I Run The Witcher 3",
+      "description": "Check The Witcher 3 system requirements and see if your PC can run it."
+    },
+    "intro": "Find out if your PC can run The Witcher 3: Wild Hunt with all its glory.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "4 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "4 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "50 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 140,
+        "cpuScore": 120
+      },
+      "recommended": {
+        "ram": 4,
+        "gpuScore": 350,
+        "cpuScore": 220
+      }
+    },
+    "results": {
+      "low": "Low settings at stable FPS",
+      "medium": "Medium settings at 60 FPS",
+      "high": "Ultra settings with modern GPU"
+    },
+    "faqs": [
+      {
+        "question": "Does the next-gen update increase system requirements?",
+        "answer": "Yes, the next-gen update adds ray tracing and other visual enhancements, raising the recommended GPU requirements considerably."
+      }
+    ]
+  },
+  {
+    "name": "Far Cry 5",
+    "slug": "far-cry-5",
+    "seo": {
+      "title": "Can I Run Far Cry 5",
+      "description": "Check Far Cry 5 system requirements and test if your PC can run it."
+    },
+    "intro": "Check if your PC can explore Hope County in Far Cry 5.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 6GB",
+        "storage": "40 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-12100F",
+        "ram": "8 GB",
+        "gpu": "RTX 2070",
+        "storage": "40 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 200,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 400,
+        "cpuScore": 260
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth medium performance",
+      "high": "High settings stable 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does Far Cry 5 support co-op on PC?",
+        "answer": "Yes, Far Cry 5 supports two-player online co-op throughout the entire campaign."
+      }
+    ]
+  },
+  {
+    "name": "Far Cry 6",
+    "slug": "far-cry-6",
+    "seo": {
+      "title": "Can I Run Far Cry 6",
+      "description": "Check Far Cry 6 system requirements and find out if your PC can handle it."
+    },
+    "intro": "Find out if your PC can handle Far Cry 6's vibrant open world.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "170 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-10700K",
+        "ram": "16 GB",
+        "gpu": "RTX 3070",
+        "storage": "170 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 220
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 600,
+        "cpuScore": 340
+      }
+    },
+    "results": {
+      "low": "Low settings at 1080p playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High/Ultra settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Far Cry 6 support ray tracing?",
+        "answer": "Yes, Far Cry 6 supports ray tracing for reflections and shadows, requiring at least an RTX 2060 for good performance."
+      }
+    ]
+  },
+  {
+    "name": "Battlefield 1",
+    "slug": "battlefield-1",
+    "seo": {
+      "title": "Can I Run Battlefield 1",
+      "description": "Check Battlefield 1 system requirements and test your PC."
+    },
+    "intro": "Check if your PC can run Battlefield 1's World War I battles.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 3GB",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 5 3600",
+        "ram": "16 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "50 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 180,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 350,
+        "cpuScore": 230
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth medium settings",
+      "high": "High settings stable FPS"
+    },
+    "faqs": [
+      {
+        "question": "Is Battlefield 1 still active on PC?",
+        "answer": "Battlefield 1 still has an active player community and regular matchmaking is available on PC."
+      }
+    ]
+  },
+  {
+    "name": "Battlefield V",
+    "slug": "battlefield-5",
+    "seo": {
+      "title": "Can I Run Battlefield V",
+      "description": "Check Battlefield V system requirements and see if your PC can run it."
+    },
+    "intro": "See if your PC can run Battlefield V's intense World War II combat.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-13100F",
+        "ram": "8 GB",
+        "gpu": "RTX 3060",
+        "storage": "50 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 450,
+        "cpuScore": 280
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth performance"
+    },
+    "faqs": [
+      {
+        "question": "Does Battlefield V support ray tracing?",
+        "answer": "Yes, Battlefield V was one of the first games to support real-time ray tracing via NVIDIA RTX cards."
+      }
+    ]
+  },
+  {
+    "name": "Battlefield 2042",
+    "slug": "battlefield-2042",
+    "seo": {
+      "title": "Can I Run Battlefield 2042",
+      "description": "Check Battlefield 2042 system requirements and test your PC."
+    },
+    "intro": "Find out if your PC can handle the next-gen warfare of Battlefield 2042.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10600K",
+        "ram": "8 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "100 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12600K",
+        "ram": "16 GB",
+        "gpu": "RTX 4070",
+        "storage": "100 GB SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 350,
+        "cpuScore": 250
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 650,
+        "cpuScore": 380
+      }
+    },
+    "results": {
+      "low": "Low settings at 1080p",
+      "medium": "Medium settings stable FPS",
+      "high": "High settings smooth gameplay"
+    },
+    "faqs": [
+      {
+        "question": "Why does Battlefield 2042 require 16GB minimum RAM?",
+        "answer": "BF2042 features large 128-player maps and dynamic weather systems that require more memory than older titles."
+      }
+    ]
+  },
+  {
+    "name": "Overwatch 2",
+    "slug": "overwatch-2",
+    "seo": {
+      "title": "Can I Run Overwatch 2",
+      "description": "Check Overwatch 2 system requirements and find out if your PC can run it."
+    },
+    "intro": "Check if your PC can run Overwatch 2 at competitive framerates.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 1050",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "50 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 120,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 180
+      }
+    },
+    "results": {
+      "low": "30+ FPS on low settings",
+      "medium": "60 FPS on medium settings",
+      "high": "144+ FPS competitive ready"
+    },
+    "faqs": [
+      {
+        "question": "Is Overwatch 2 free to play?",
+        "answer": "Yes, Overwatch 2 is free to play on PC via Battle.net."
+      }
+    ]
+  },
+  {
+    "name": "Counter Strike 2",
+    "slug": "counter-strike-2",
+    "seo": {
+      "title": "Can I Run Counter Strike 2",
+      "description": "Check Counter Strike 2 system requirements and see if your PC can handle it."
+    },
+    "intro": "Find out if your PC can run Counter Strike 2 at top competitive performance.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "8 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "85 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "85 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 140,
+        "cpuScore": 120
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 200
+      }
+    },
+    "results": {
+      "low": "Playable at 60 FPS low",
+      "medium": "High FPS competitive play",
+      "high": "Max settings competitive ready"
+    },
+    "faqs": [
+      {
+        "question": "Is CS2 harder to run than CS:GO?",
+        "answer": "Yes, CS2 is more demanding than CS:GO due to the upgraded Source 2 engine with improved lighting and physics."
+      }
+    ]
+  },
+  {
+    "name": "Dota 2",
+    "slug": "dota-2",
+    "seo": {
+      "title": "Can I Run Dota 2",
+      "description": "Check Dota 2 system requirements and see if your PC can run it."
+    },
+    "intro": "Check if your PC can run Dota 2 smoothly on all settings.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 750",
+        "storage": "60 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "4 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "60 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 80,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 4,
+        "gpuScore": 140,
+        "cpuScore": 120
+      }
+    },
+    "results": {
+      "low": "Stable FPS on low settings",
+      "medium": "60+ FPS medium settings",
+      "high": "High settings smooth gameplay"
+    },
+    "faqs": [
+      {
+        "question": "Is Dota 2 free to play?",
+        "answer": "Yes, Dota 2 is completely free to play on Steam."
+      }
+    ]
+  },
+  {
+    "name": "League of Legends",
+    "slug": "league-of-legends",
+    "seo": {
+      "title": "Can I Run League of Legends",
+      "description": "Check League of Legends system requirements and test your PC."
+    },
+    "intro": "Find out if your PC can run League of Legends at competitive framerates.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GT 1030",
+        "storage": "16 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 1050",
+        "storage": "16 GB SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 70,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 4,
+        "gpuScore": 120,
+        "cpuScore": 110
+      }
+    },
+    "results": {
+      "low": "60 FPS on low settings",
+      "medium": "High FPS on medium",
+      "high": "Max settings 144+ FPS"
+    },
+    "faqs": [
+      {
+        "question": "Can League of Legends run on integrated graphics?",
+        "answer": "Yes, League of Legends can run on most Intel integrated graphics on low settings."
+      }
+    ]
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "slug": "hogwarts-legacy",
+    "seo": {
+      "title": "Can I Run Hogwarts Legacy",
+      "description": "Check Hogwarts Legacy system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can explore the wizarding world in Hogwarts Legacy.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-12100F",
+        "ram": "16 GB",
+        "gpu": "RTX 2070",
+        "storage": "85 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 5800X",
+        "ram": "16 GB",
+        "gpu": "RTX 3080",
+        "storage": "85 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 16,
+        "gpuScore": 400,
+        "cpuScore": 260
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 720,
+        "cpuScore": 430
+      }
+    },
+    "results": {
+      "low": "Low settings at 1080p",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High/Ultra settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Why are Hogwarts Legacy PC requirements so high?",
+        "answer": "Hogwarts Legacy features a large detailed open world with advanced lighting and NPC systems, which demand significant hardware resources."
+      }
+    ]
+  },
+  {
+    "name": "Starfield",
+    "slug": "starfield",
+    "seo": {
+      "title": "Can I Run Starfield",
+      "description": "Check Starfield system requirements and test if your PC can handle it."
+    },
+    "intro": "Check if your PC can explore the stars in Bethesda's Starfield.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "16 GB",
+        "gpu": "RTX 2070 Super",
+        "storage": "125 GB SSD"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-13600K",
+        "ram": "16 GB",
+        "gpu": "RTX 3080",
+        "storage": "125 GB SSD"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 16,
+        "gpuScore": 430,
+        "cpuScore": 300
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 720,
+        "cpuScore": 450
+      }
+    },
+    "results": {
+      "low": "Low settings at 30 FPS",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Starfield require an SSD?",
+        "answer": "Yes, Starfield requires an SSD for installation. HDDs are not supported due to the game's large number of assets."
+      },
+      {
+        "question": "How large is Starfield on PC?",
+        "answer": "Starfield requires approximately 125 GB of SSD space."
+      }
+    ]
+  },
+  {
+    "name": "Resident Evil Village",
+    "slug": "resident-evil-village",
+    "seo": {
+      "title": "Can I Run Resident Evil Village",
+      "description": "Check Resident Evil Village system requirements and test your PC."
+    },
+    "intro": "Find out if your PC can survive the horrors of Resident Evil Village.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "Not specified"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "16 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "Not specified"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 500,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Low settings stable FPS",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does RE Village support ray tracing?",
+        "answer": "Yes, RE Village supports ray tracing via NVIDIA RTX and AMD cards with the appropriate drivers."
+      }
+    ]
+  },
+  {
+    "name": "Resident Evil 4 Remake",
+    "slug": "resident-evil-4-remake",
+    "seo": {
+      "title": "Can I Run Resident Evil 4 Remake",
+      "description": "Check Resident Evil 4 Remake system requirements and find out if your PC can run it."
+    },
+    "intro": "Check if your PC can handle the stunning Resident Evil 4 Remake.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "Not specified"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-10700K",
+        "ram": "16 GB",
+        "gpu": "RTX 2080 Ti",
+        "storage": "Not specified"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 220
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 550,
+        "cpuScore": 340
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does RE4 Remake support VR?",
+        "answer": "A VR version of RE4 Remake was released for PlayStation VR2. PC VR support is not officially available."
+      }
+    ]
+  },
+  {
+    "name": "Forza Horizon 5",
+    "slug": "forza-horizon-5",
+    "seo": {
+      "title": "Can I Run Forza Horizon 5",
+      "description": "Check Forza Horizon 5 system requirements and test your PC."
+    },
+    "intro": "Find out if your PC can race through Mexico in Forza Horizon 5.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "110 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "16 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "110 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 500,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "Ultra settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Is Forza Horizon 5 on Xbox Game Pass PC?",
+        "answer": "Yes, Forza Horizon 5 is available on PC via Xbox Game Pass."
+      }
+    ]
+  },
+  {
+    "name": "Need for Speed Heat",
+    "slug": "need-for-speed-heat",
+    "seo": {
+      "title": "Can I Run Need for Speed Heat",
+      "description": "Check Need for Speed Heat system requirements and test your PC."
+    },
+    "intro": "Check if your PC can race day and night in Need for Speed Heat.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 6GB",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-12100F",
+        "ram": "16 GB",
+        "gpu": "RTX 2070",
+        "storage": "50 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 200,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 400,
+        "cpuScore": 260
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth at medium settings",
+      "high": "High settings stable FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does NFS Heat support wheel peripherals?",
+        "answer": "Yes, NFS Heat has support for various steering wheels and racing peripherals on PC."
+      }
+    ]
+  },
+  {
+    "name": "Need for Speed Unbound",
+    "slug": "need-for-speed-unbound",
+    "seo": {
+      "title": "Can I Run Need for Speed Unbound",
+      "description": "Check Need for Speed Unbound system requirements and find out if your PC is ready."
+    },
+    "intro": "Find out if your PC can run Need for Speed Unbound's stylized open world.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "50 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-10700K",
+        "ram": "16 GB",
+        "gpu": "RTX 3070",
+        "storage": "50 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 220
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 600,
+        "cpuScore": 340
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings smooth",
+      "high": "High settings with stable FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does NFS Unbound require an SSD?",
+        "answer": "An SSD is recommended for faster load times in NFS Unbound's open world."
+      }
+    ]
+  },
+  {
+    "name": "Shadow of the Tomb Raider",
+    "slug": "shadow-of-the-tomb-raider",
+    "seo": {
+      "title": "Can I Run Shadow of the Tomb Raider",
+      "description": "Check Shadow of the Tomb Raider system requirements and test your PC."
+    },
+    "intro": "Check if your PC can run Shadow of the Tomb Raider's jungle adventure.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-8400",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "40 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-13100F",
+        "ram": "16 GB",
+        "gpu": "RTX 3060",
+        "storage": "40 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 160
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 450,
+        "cpuScore": 280
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High/Ultra smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Shadow of the Tomb Raider support DX12?",
+        "answer": "Yes, it supports DirectX 12 for improved rendering performance on compatible hardware."
+      }
+    ]
+  },
+  {
+    "name": "Rise of the Tomb Raider",
+    "slug": "rise-of-the-tomb-raider",
+    "seo": {
+      "title": "Can I Run Rise of the Tomb Raider",
+      "description": "Check Rise of the Tomb Raider system requirements and see if your PC can run it."
+    },
+    "intro": "Find out if your PC can handle Rise of the Tomb Raider's Siberian adventure.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "4 GB",
+        "gpu": "GTX 1060 3GB",
+        "storage": "25 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 5 3600",
+        "ram": "8 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "25 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 180,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 350,
+        "cpuScore": 230
+      }
+    },
+    "results": {
+      "low": "Low settings stable FPS",
+      "medium": "Smooth medium performance",
+      "high": "High settings at 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "Can Rise of the Tomb Raider run on older GPUs?",
+        "answer": "Yes, the game is well-optimized and can run on GTX 660-class hardware at lower settings."
+      }
+    ]
+  },
+  {
+    "name": "Control",
+    "slug": "control",
+    "seo": {
+      "title": "Can I Run Control",
+      "description": "Check Control system requirements and find out if your PC can run it."
+    },
+    "intro": "Check if your PC can run the visually stunning action game Control.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "42 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12400F",
+        "ram": "16 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "42 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 500,
+        "cpuScore": 320
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High/Ultra with ray tracing"
+    },
+    "faqs": [
+      {
+        "question": "Does Control have ray tracing?",
+        "answer": "Yes, Control is known for its spectacular ray tracing implementation. An RTX card is recommended for ray tracing features."
+      }
+    ]
+  },
+  {
+    "name": "Death Stranding",
+    "slug": "death-stranding",
+    "seo": {
+      "title": "Can I Run Death Stranding",
+      "description": "Check Death Stranding system requirements and test your PC."
+    },
+    "intro": "Find out if your PC can trek through Death Stranding's post-apocalyptic world.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "80 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "8 GB",
+        "gpu": "RTX 3060",
+        "storage": "80 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 450,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Is Death Stranding well optimized on PC?",
+        "answer": "Yes, Death Stranding is considered one of the better-optimized PC ports with Decima engine support for a wide range of hardware."
+      }
+    ]
+  },
+  {
+    "name": "Days Gone",
+    "slug": "days-gone",
+    "seo": {
+      "title": "Can I Run Days Gone",
+      "description": "Check Days Gone system requirements and see if your PC can run it."
+    },
+    "intro": "Check if your PC can survive the open world of Days Gone.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "70 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "16 GB",
+        "gpu": "RTX 3060",
+        "storage": "70 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 450,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth medium performance",
+      "high": "High settings at 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does Days Gone support ultrawide on PC?",
+        "answer": "Yes, the PC version of Days Gone supports 21:9 ultrawide and multiple display resolutions."
+      }
+    ]
+  },
+  {
+    "name": "Horizon Zero Dawn",
+    "slug": "horizon-zero-dawn",
+    "seo": {
+      "title": "Can I Run Horizon Zero Dawn",
+      "description": "Check Horizon Zero Dawn system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can explore the machine-filled world of Horizon Zero Dawn.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "100 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12400F",
+        "ram": "16 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "100 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 500,
+        "cpuScore": 320
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Was Horizon Zero Dawn a good PC port?",
+        "answer": "The initial PC release had some issues but subsequent patches improved stability and performance significantly."
+      }
+    ]
+  },
+  {
+    "name": "Ghostrunner",
+    "slug": "ghostrunner",
+    "seo": {
+      "title": "Can I Run Ghostrunner",
+      "description": "Check Ghostrunner system requirements and test your PC."
+    },
+    "intro": "Check if your PC can keep up with the lightning-fast action of Ghostrunner.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 6GB",
+        "storage": "22 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-12100F",
+        "ram": "8 GB",
+        "gpu": "RTX 2070",
+        "storage": "22 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 200,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 400,
+        "cpuScore": 260
+      }
+    },
+    "results": {
+      "low": "Low settings stable FPS",
+      "medium": "60 FPS medium settings",
+      "high": "High settings ultra smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Ghostrunner support ray tracing?",
+        "answer": "Yes, Ghostrunner supports ray tracing for reflections on RTX-enabled hardware."
+      }
+    ]
+  },
+  {
+    "name": "Metro Exodus",
+    "slug": "metro-exodus",
+    "seo": {
+      "title": "Can I Run Metro Exodus",
+      "description": "Check Metro Exodus system requirements and test your PC."
+    },
+    "intro": "Find out if your PC can survive the post-apocalyptic world of Metro Exodus.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "59 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12400F",
+        "ram": "8 GB",
+        "gpu": "RTX 2080 Super",
+        "storage": "59 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 200
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 500,
+        "cpuScore": 320
+      }
+    },
+    "results": {
+      "low": "Low settings stable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings with ray tracing"
+    },
+    "faqs": [
+      {
+        "question": "Does Metro Exodus support ray tracing?",
+        "answer": "Yes, Metro Exodus is one of the flagship ray tracing titles, with dramatic visual improvements using RTX hardware."
+      }
+    ]
+  },
+  {
+    "name": "Metro Last Light Redux",
+    "slug": "metro-last-light-redux",
+    "seo": {
+      "title": "Can I Run Metro Last Light Redux",
+      "description": "Check Metro Last Light Redux system requirements and see if your PC can run it."
+    },
+    "intro": "Check if your PC can explore the dark tunnels of Metro Last Light Redux.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 1050",
+        "storage": "10 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "4 GB",
+        "gpu": "GTX 1070",
+        "storage": "10 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 120,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 4,
+        "gpuScore": 240,
+        "cpuScore": 180
+      }
+    },
+    "results": {
+      "low": "Smooth on low settings",
+      "medium": "Medium settings stable FPS",
+      "high": "High settings at 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "What does the Redux version include?",
+        "answer": "Metro Last Light Redux includes all DLC and graphical improvements over the original release."
+      }
+    ]
+  },
+  {
+    "name": "Dark Souls III",
+    "slug": "dark-souls-3",
+    "seo": {
+      "title": "Can I Run Dark Souls III",
+      "description": "Check Dark Souls III system requirements and see if your PC can handle it."
+    },
+    "intro": "Check if your PC can handle the brutal challenges of Dark Souls III.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "4 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "25 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "25 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 140,
+        "cpuScore": 120
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 200
+      }
+    },
+    "results": {
+      "low": "Playable at 30 FPS low",
+      "medium": "Stable 60 FPS medium",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Is Dark Souls III capped at 60 FPS?",
+        "answer": "The game has a 60 FPS lock by default but community mods exist to unlock higher framerates."
+      }
+    ]
+  },
+  {
+    "name": "Sekiro Shadows Die Twice",
+    "slug": "sekiro-shadows-die-twice",
+    "seo": {
+      "title": "Can I Run Sekiro Shadows Die Twice",
+      "description": "Check Sekiro system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can handle the precise combat of Sekiro: Shadows Die Twice.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "4 GB",
+        "gpu": "GTX 1060 3GB",
+        "storage": "25 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 5 3600",
+        "ram": "8 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "25 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 180,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 350,
+        "cpuScore": 230
+      }
+    },
+    "results": {
+      "low": "Stable 60 FPS on low",
+      "medium": "Smooth medium performance",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Sekiro support 60 FPS on PC?",
+        "answer": "Yes, Sekiro runs at 60 FPS on PC and the gameplay is designed around this framerate for proper combat pacing."
+      }
+    ]
+  },
+  {
+    "name": "Monster Hunter World",
+    "slug": "monster-hunter-world",
+    "seo": {
+      "title": "Can I Run Monster Hunter World",
+      "description": "Check Monster Hunter World system requirements and test your PC."
+    },
+    "intro": "Check if your PC can hunt massive monsters in Monster Hunter World.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-8400",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 6GB",
+        "storage": "52 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-12100F",
+        "ram": "8 GB",
+        "gpu": "RTX 2070",
+        "storage": "52 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 200,
+        "cpuScore": 160
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 400,
+        "cpuScore": 260
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Monster Hunter World include the Iceborne expansion?",
+        "answer": "Iceborne is a separate paid expansion. It has higher system requirements than the base game."
+      }
+    ]
+  },
+  {
+    "name": "No Man's Sky",
+    "slug": "no-mans-sky",
+    "seo": {
+      "title": "Can I Run No Man's Sky",
+      "description": "Check No Man's Sky system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can explore the infinite universe of No Man's Sky.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 3GB",
+        "storage": "15 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 5 3600",
+        "ram": "8 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "15 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 180,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 350,
+        "cpuScore": 230
+      }
+    },
+    "results": {
+      "low": "Playable at low settings",
+      "medium": "Medium settings stable",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does No Man's Sky support VR?",
+        "answer": "Yes, No Man's Sky has full VR support on PC via SteamVR-compatible headsets."
+      }
+    ]
+  },
+  {
+    "name": "Rainbow Six Siege",
+    "slug": "rainbow-six-siege",
+    "seo": {
+      "title": "Can I Run Rainbow Six Siege",
+      "description": "Check Rainbow Six Siege system requirements and test your PC."
+    },
+    "intro": "Check if your PC can run Rainbow Six Siege at competitive settings.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-7400",
+        "ram": "8 GB",
+        "gpu": "GTX 1050 Ti",
+        "storage": "65 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i7-7700K",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "65 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 140,
+        "cpuScore": 120
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 200
+      }
+    },
+    "results": {
+      "low": "Playable at low settings",
+      "medium": "60+ FPS medium settings",
+      "high": "High settings competitive FPS"
+    },
+    "faqs": [
+      {
+        "question": "Can Rainbow Six Siege run at 144 FPS?",
+        "answer": "Yes, with a mid-range GPU like a GTX 1660 or RX 5700, 144 FPS at 1080p medium settings is achievable."
+      }
+    ]
+  },
+  {
+    "name": "Watch Dogs 2",
+    "slug": "watch-dogs-2",
+    "seo": {
+      "title": "Can I Run Watch Dogs 2",
+      "description": "Check Watch Dogs 2 system requirements and see if your PC can run it."
+    },
+    "intro": "Find out if your PC can hack through San Francisco in Watch Dogs 2.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "4 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "27 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "8 GB",
+        "gpu": "RTX 3060",
+        "storage": "27 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 220,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 450,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings stable",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Is Watch Dogs 2 more demanding than the original?",
+        "answer": "Yes, Watch Dogs 2 features a more detailed open world and is more GPU-intensive than the original game."
+      }
+    ]
+  },
+  {
+    "name": "Watch Dogs Legion",
+    "slug": "watch-dogs-legion",
+    "seo": {
+      "title": "Can I Run Watch Dogs Legion",
+      "description": "Check Watch Dogs Legion system requirements and test your PC."
+    },
+    "intro": "Check if your PC can liberate London in Watch Dogs Legion.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i5-10400F",
+        "ram": "8 GB",
+        "gpu": "GTX 1080",
+        "storage": "80 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i5-12600K",
+        "ram": "8 GB",
+        "gpu": "RTX 4070",
+        "storage": "80 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 300,
+        "cpuScore": 220
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 650,
+        "cpuScore": 380
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Does Watch Dogs Legion support ray tracing?",
+        "answer": "Yes, Legion supports ray tracing for reflections and shadows, requiring RTX or RDNA2 hardware for best results."
+      }
+    ]
+  },
+  {
+    "name": "Sleeping Dogs",
+    "slug": "sleeping-dogs",
+    "seo": {
+      "title": "Can I Run Sleeping Dogs",
+      "description": "Check Sleeping Dogs system requirements and find out if your PC can run it."
+    },
+    "intro": "Find out if your PC can run the undercover action of Sleeping Dogs in Hong Kong.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "4 GB",
+        "gpu": "GTX 750 Ti",
+        "storage": "20 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 6GB",
+        "storage": "20 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 4,
+        "gpuScore": 95,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 200,
+        "cpuScore": 150
+      }
+    },
+    "results": {
+      "low": "Smooth on low settings",
+      "medium": "Medium settings stable",
+      "high": "High settings at 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "Is Sleeping Dogs Definitive Edition the same as the original?",
+        "answer": "The Definitive Edition includes all DLC and visual improvements including higher resolution textures."
+      }
+    ]
+  },
+  {
+    "name": "Just Cause 3",
+    "slug": "just-cause-3",
+    "seo": {
+      "title": "Can I Run Just Cause 3",
+      "description": "Check Just Cause 3 system requirements and test your PC."
+    },
+    "intro": "Check if your PC can handle Just Cause 3's explosive open world.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-9100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1060 3GB",
+        "storage": "54 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 5 3600",
+        "ram": "8 GB",
+        "gpu": "GTX 1080 Ti",
+        "storage": "54 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 180,
+        "cpuScore": 150
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 350,
+        "cpuScore": 230
+      }
+    },
+    "results": {
+      "low": "Playable on low settings",
+      "medium": "Smooth medium performance",
+      "high": "High settings at 60 FPS"
+    },
+    "faqs": [
+      {
+        "question": "Does Just Cause 3 have multiplayer?",
+        "answer": "The base game is single-player only, but a community-made multiplayer mod exists."
+      }
+    ]
+  },
+  {
+    "name": "Just Cause 4",
+    "slug": "just-cause-4",
+    "seo": {
+      "title": "Can I Run Just Cause 4",
+      "description": "Check Just Cause 4 system requirements and find out if your PC can handle it."
+    },
+    "intro": "Find out if your PC can handle the chaos and weather of Just Cause 4.",
+    "requirements": {
+      "minimum": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 980 Ti",
+        "storage": "59 GB"
+      },
+      "recommended": {
+        "cpu": "AMD Ryzen 7 3700X",
+        "ram": "16 GB",
+        "gpu": "RTX 3060",
+        "storage": "59 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 220,
+        "cpuScore": 180
+      },
+      "recommended": {
+        "ram": 16,
+        "gpuScore": 450,
+        "cpuScore": 300
+      }
+    },
+    "results": {
+      "low": "Low settings playable",
+      "medium": "Medium settings at 60 FPS",
+      "high": "High settings smooth"
+    },
+    "faqs": [
+      {
+        "question": "Is Just Cause 4 better optimized than JC3?",
+        "answer": "Just Cause 4 saw performance improvements over JC3 particularly in CPU utilization and reduced stuttering."
+      }
+    ]
+  },
+  {
+    "name": "Skyrim Special Edition",
+    "slug": "skyrim-special-edition",
+    "seo": {
+      "title": "Can I Run Skyrim Special Edition",
+      "description": "Check Skyrim Special Edition system requirements and test your PC."
+    },
+    "intro": "Check if your PC can adventure through the Nordic lands of Skyrim Special Edition.",
+    "requirements": {
+      "minimum": {
+        "cpu": "AMD Ryzen 3 1200",
+        "ram": "8 GB",
+        "gpu": "GTX 1050",
+        "storage": "12 GB"
+      },
+      "recommended": {
+        "cpu": "Intel Core i3-10100F",
+        "ram": "8 GB",
+        "gpu": "GTX 1070",
+        "storage": "12 GB"
+      }
+    },
+    "scores": {
+      "minimum": {
+        "ram": 8,
+        "gpuScore": 120,
+        "cpuScore": 110
+      },
+      "recommended": {
+        "ram": 8,
+        "gpuScore": 240,
+        "cpuScore": 180
+      }
+    },
+    "results": {
+      "low": "Vanilla smooth on low settings",
+      "medium": "Medium settings with mods",
+      "high": "High/Ultra with ENB and texture mods"
+    },
+    "faqs": [
+      {
+        "question": "Can Skyrim SE run with heavy mods?",
+        "answer": "Yes, but heavy graphical mod packs like 2K/4K texture overhauls and ENB presets can significantly increase GPU requirements."
+      },
+      {
+        "question": "Is Skyrim Anniversary Edition different from Special Edition?",
+        "answer": "Yes, the Anniversary Edition includes all official Creation Club content on top of the Special Edition base game."
+      }
+    ]
+  }
 ]

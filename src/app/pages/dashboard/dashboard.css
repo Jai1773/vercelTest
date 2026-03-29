@@ -1,0 +1,239 @@
+/* ========================= */
+/* BACKGROUND */
+/* ========================= */
+
+.dashboard-wrapper {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, #0f2027, #000000 70%),
+    linear-gradient(120deg, #0f2027, #000000);
+  color: #fff;
+  padding: 0; /* FIXED */
+}
+
+/* ========================= */
+/* HEADER BAR */
+/* ========================= */
+
+.dashboard-header {
+  background: linear-gradient(90deg, #0f2027, #000000);
+  padding: 15px 25px;
+  border-bottom: 1px solid #111;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-content .icon {
+  font-size: 1.8rem;
+  color: #00e5ff;
+}
+
+.header-content h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #00e5ff, #00ffcc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ========================= */
+/* MAIN CONTAINER */
+/* ========================= */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+/* ========================= */
+/* GRID */
+/* ========================= */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+/* ========================= */
+/* PANELS */
+/* ========================= */
+
+.left-panel,
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ========================= */
+/* CARD BASE */
+/* ========================= */
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid #222;
+  border-radius: 14px;
+  padding: 20px;
+  backdrop-filter: blur(12px);
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #00bcd4;
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.15);
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
+
+.hero-card {
+  text-align: center;
+}
+
+.hero-card h2 {
+  margin-bottom: 10px;
+}
+
+/* ========================= */
+/* INFO */
+/* ========================= */
+
+.info-card ul {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.info-card li {
+  margin-bottom: 8px;
+}
+
+/* ========================= */
+/* GAMES SECTION */
+/* ========================= */
+
+.games-card {
+  display: flex;
+  flex-direction: column;
+  height: 995px; /* FIXED (was too large) */
+}
+
+/* STICKY TITLE */
+.games-card h2 {
+  position: sticky;
+  top: 0;
+  background: rgba(15, 32, 39, 0.95);
+  padding-bottom: 10px;
+  z-index: 2;
+}
+
+/* SCROLL AREA */
+.games-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* FADE EFFECT */
+.games-scroll::after {
+  content: '';
+  position: sticky;
+  bottom: 0;
+  height: 30px;
+  display: block;
+  background: linear-gradient(to top, rgba(15, 32, 39, 1), transparent);
+}
+
+/* GRID */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+/* ========================= */
+/* GAME CARD */
+/* ========================= */
+
+.game-card {
+  background: linear-gradient(145deg, #111, #1c1c1c);
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #222;
+  transition: 0.3s;
+  position: relative;
+}
+
+.game-card::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  border-radius: 9px;
+  background: linear-gradient(120deg, transparent, #00bcd4, transparent);
+  opacity: 0;
+  transition: 0.4s;
+  pointer-events: none;
+}
+
+.game-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  border-color: #00bcd4;
+}
+
+.game-card:hover::before {
+  opacity: 0.2;
+}
+
+.game-card h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.game-card span {
+  font-size: 0.8rem;
+  color: #00bcd4;
+  position: relative;
+  z-index: 2;
+}
+
+/* ========================= */
+/* SCROLLBAR */
+/* ========================= */
+
+.games-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.games-scroll::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+.games-scroll::-webkit-scrollbar-thumb {
+  background: #00bcd4;
+  border-radius: 10px;
+}
+
+.games-scroll::-webkit-scrollbar-thumb:hover {
+  background: #00e5ff;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .games-card {
+    height: 400px;
+  }
+}
